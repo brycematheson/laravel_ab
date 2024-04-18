@@ -20,7 +20,7 @@ composer require brycematheson/laravel_ab_test
 After installation publish the config file:
 
 ```bash
-php artisan vendor:publish --provider="Brycematheson\abtest\AbtestServiceProvider"
+php artisan vendor:publish --provider="Brycematheson\Abtest\AbtestServiceProvider"
 ```
 
 You can define your experiments and goals in there.
