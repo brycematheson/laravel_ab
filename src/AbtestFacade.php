@@ -1,11 +1,11 @@
 <?php
 
-namespace Apurbajnu\Abtest;
+namespace Brycematheson\Abtest;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Apurbajnu\Abtest\Abtest
+ * @see \Brycematheson\Abtest\Abtest
  */
 class AbtestFacade extends Facade
 {

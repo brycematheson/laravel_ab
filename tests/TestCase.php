@@ -1,9 +1,9 @@
 <?php
 
-namespace Apurbajnu\Abtest\Tests;
+namespace Brycematheson\Abtest\Tests;
 
-use Apurbajnu\Abtest\AbtestFacade;
-use Apurbajnu\Abtest\AbtestServiceProvider;
+use Brycematheson\Abtest\AbtestFacade;
+use Brycematheson\Abtest\AbtestServiceProvider;
 use Illuminate\Support\Facades\Event;
 
 class TestCase extends \Orchestra\Testbench\TestCase

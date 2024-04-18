@@ -1,9 +1,9 @@
 <?php
 
-namespace Apurbajnu\Abtest\Commands;
+namespace Brycematheson\Abtest\Commands;
 
-use Apurbajnu\Abtest\Models\Experiment;
-use Apurbajnu\Abtest\Models\Goal;
+use Brycematheson\Abtest\Models\Experiment;
+use Brycematheson\Abtest\Models\Goal;
 use Illuminate\Console\Command;
 
 class ResetCommand extends Command

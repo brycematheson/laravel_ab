@@ -1,10 +1,10 @@
 <?php
 
-namespace Apurbajnu\Abtest;
+namespace Brycematheson\Abtest;
 
-use Apurbajnu\Abtest\Commands\ReportCommand;
-use Apurbajnu\Abtest\Commands\ResetCommand;
-use Apurbajnu\Abtest\Abtest;
+use Brycematheson\Abtest\Commands\ReportCommand;
+use Brycematheson\Abtest\Commands\ResetCommand;
+use Brycematheson\Abtest\Abtest;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;

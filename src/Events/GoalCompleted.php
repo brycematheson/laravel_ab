@@ -1,6 +1,6 @@
 <?php
 
-namespace Apurbajnu\Abtest\Events;
+namespace Brycematheson\Abtest\Events;
 
 class GoalCompleted
 {

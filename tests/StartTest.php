@@ -1,11 +1,11 @@
 <?php
 
-namespace Apurbajnu\Abtest\Tests;
+namespace Brycematheson\Abtest\Tests;
 
-use Apurbajnu\Abtest\AbtestFacade;
-use Apurbajnu\Abtest\Exceptions\InvalidConfiguration;
-use Apurbajnu\Abtest\Models\Experiment;
-use Apurbajnu\Abtest\Models\Goal;
+use Brycematheson\Abtest\AbtestFacade;
+use Brycematheson\Abtest\Exceptions\InvalidConfiguration;
+use Brycematheson\Abtest\Models\Experiment;
+use Brycematheson\Abtest\Models\Goal;
 
 class StartTest extends TestCase
 {

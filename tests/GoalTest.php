@@ -1,10 +1,10 @@
 <?php
 
-namespace Apurbajnu\Abtest\Tests;
+namespace Brycematheson\Abtest\Tests;
 
-use Apurbajnu\Abtest\Abtest;
-use Apurbajnu\Abtest\AbtestFacade;
-use Apurbajnu\Abtest\Events\GoalCompleted;
+use Brycematheson\Abtest\Abtest;
+use Brycematheson\Abtest\AbtestFacade;
+use Brycematheson\Abtest\Events\GoalCompleted;
 use Illuminate\Support\Facades\Event;
 
 class GoalTest extends TestCase
