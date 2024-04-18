@@ -1,6 +1,6 @@
 {
-    "name": "apurbajnu/abtest",
-    "description": "Laravel 8 AB testing package",
+    "name": "brycematheson/laravel_ab_test",
+    "description": "Laravel 10 AB testing package",
     "type": "library",
     "license": "MIT",
     "autoload": {
@@ -8,16 +8,10 @@
             "Apurbajnu\\Abtest\\": "src/"
         }
     },
-    "authors": [
-        {
-            "name": "Apurba Podder",
-            "email": "apurba.jnu@gmail.com"
-        }
-    ],
 
     "require": {
-        "php": "^7.4 || ^8.0",
-        "laravel/framework": "^5.3 || ^6.0 || ^7.0 || ^8.0 || ^9.0",
+        "php": "^8.0",
+        "laravel/framework": "^8.0 || ^9.0 || ^10.0 || ^11.0",
         "jaybizzle/crawler-detect": "^1.2"
     },
     "require-dev": {
