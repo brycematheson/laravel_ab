@@ -2,23 +2,17 @@
     <img src="https://i.ibb.co/hy7fjMG/Laravel-AB.png" width="300"/>
 </h6>
 
-<p align="center"><a href="https://github.com/ben182/laravel-ab/releases"><img src="https://camo.githubusercontent.com/c3ce61db6a98f1a6d141a4fc3b3f83c182674ba8/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f72656c656173652f62656e3138322f6c61726176656c2d61622e7376673f7374796c653d666c61742d737175617265" alt="Latest Version" data-canonical-src="https://img.shields.io/github/release/ben182/laravel-ab.svg?style=flat-square" style="max-width:100%;"></a>
-<a href="https://travis-ci.org/ben182/laravel-ab" rel="nofollow"><img src="https://camo.githubusercontent.com/7994c56ad88fb3e839360835571cc670d88af2e2/68747470733a2f2f696d672e736869656c64732e696f2f7472617669732f62656e3138322f6c61726176656c2d61622f6d61737465722e7376673f7374796c653d666c61742d737175617265" alt="Build Status" data-canonical-src="https://img.shields.io/travis/ben182/laravel-ab/master.svg?style=flat-square" style="max-width:100%;"></a>
-<a href="https://scrutinizer-ci.com/g/ben182/laravel-ab" rel="nofollow"><img src="https://camo.githubusercontent.com/88e5e8e14c12f93518fa07a025a15893ae8772e4/68747470733a2f2f696d672e736869656c64732e696f2f7363727574696e697a65722f672f62656e3138322f6c61726176656c2d61622e7376673f7374796c653d666c61742d737175617265" alt="Quality Score" data-canonical-src="https://img.shields.io/scrutinizer/g/ben182/laravel-ab.svg?style=flat-square" style="max-width:100%;"></a>
-<a href="https://scrutinizer-ci.com/g/ben182/laravel-ab/?branch=master" rel="nofollow"><img src="https://camo.githubusercontent.com/de896bb05aa6d6224d2c1e7be81c36b18895128d/68747470733a2f2f7363727574696e697a65722d63692e636f6d2f672f62656e3138322f6c61726176656c2d61622f6261646765732f636f7665726167652e706e673f623d6d6173746572" alt="Code Coverage" data-canonical-src="https://scrutinizer-ci.com/g/ben182/laravel-ab/badges/coverage.png?b=master" style="max-width:100%;"></a></p>
-
 This package helps you to find out which content works on your site and which doesn't.
 
 It allows you to create experiments and goals. The visitor will receive randomly the next experiment and you can customize your site to that experiment. The view and the goal conversion will be tracked and you can view the results in a report.
 
 ## Installation
-This package is clone of ben182/laravel-ab & Compatiable with Laravel 8
-This package compatiable with Laravel 8.
+This package is clone of ben182/laravel-ab but upgraded to work with Laravel v10 and 11.
 
 You can install the package via composer:
 
 ```bash
-composer require apurbajnu/abtest
+composer require brycematheson/laravel_ab_test
 ```
 
 ## Config
